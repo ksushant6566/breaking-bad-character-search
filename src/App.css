@@ -1,0 +1,76 @@
+body{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+.App {
+  color: white;
+}
+.header{
+  background: url(./imgs/favicon.png) no-repeat center center/cover;
+  height: 135px;
+  width: 250px;
+  margin: 3rem auto;
+}
+
+.searchBox{
+  height: 35px;
+  width: 400px;
+  margin: 30px auto;
+  justify-content: center;
+  align-items: center;
+}
+.searchBox input{
+  height: 30px;
+  width: 290px;
+}
+.searchBox button{
+  height: 36px;
+  width: 60px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card{
+  height: 440px;
+  margin: 7px;
+  transition: all 0.8s;
+}
+.card:hover{
+  background: rgba(230, 121, 18, 0.4);
+}
+
+.cardimg{
+  position: absolute;
+  z-index: -1;
+  height: 400px;
+  width: 326px;
+}
+.cardimg img{
+ width: 100%;
+ height: 400px;
+}
+
+.cardtext {
+  display: none;
+}
+.cardtextHover{
+  line-height: 10px;
+  font-family: 'Merriweather Sans', sans-serif;
+  display: block;
+  text-shadow: rgb(230, 121, 18) 1px 1px 1px;
+  transform: translate(20px);
+  font-size: 15px;
+}
+.charName{
+  font-size: 26px;
+  line-height: 1.8rem;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+
